@@ -2,7 +2,16 @@
   "name": "flagception/flagception",
   "type": "lib",
   "description": "Feature toggle on steroids.",
-  "keywords": ["feature", "feature-toggle", "feature-flags", "flags", "flagception", "rollout", "testing", "toggle"],
+  "keywords": [
+    "feature",
+    "feature-toggle",
+    "feature-flags",
+    "flags",
+    "flagception",
+    "rollout",
+    "testing",
+    "toggle"
+  ],
   "license": "MIT",
   "authors": [
     {
@@ -35,9 +44,9 @@
     "flagception/database-activator": "Fetch feature flags from database."
   },
   "scripts": {
-	"phpunit": "phpunit --coverage-text -c ./build/phpunit.xml",
-	"checkstyle": "phpcs --standard=./build/phpcs.xml ./src",
-	"analyze": "@checkstyle",
-	"test": "@phpunit"
+    "phpunit": "phpunit --coverage-text -c ./build/phpunit.xml",
+    "checkstyle": "phpcs --standard=./build/phpcs.xml ./src",
+    "analyze": "@checkstyle",
+    "test": "@phpunit"
   }
 }
